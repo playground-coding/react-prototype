@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../asset/images/logo.svg';
+import '../css/App.css';
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <br />
+          Here is my change!
         </p>
         <a
           className="App-link"
